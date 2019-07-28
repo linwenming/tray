@@ -89,6 +89,7 @@ class TrayContract {
      * Inform if someone use the old way to set or override the authority
      */
     private static void checkOldWayToSetAuthority(final @NonNull Context context) {
+    		/**
         if (!"legacyTrayAuthority".equals(context.getString(R.string.tray__authority))) {
             Log.e("Tray", "Deprecated way of defining the Tray authority detected\n"
                     + "#########################################\n"
@@ -101,6 +102,7 @@ class TrayContract {
                     + "#########################################\n"
                     + "#########################################\n");
         }
+        */
     }
 
     @NonNull
